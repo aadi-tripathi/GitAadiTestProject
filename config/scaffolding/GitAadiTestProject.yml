@@ -3,6 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: AadicusT
+  version: "1.0"
   gitServerName: aadic
   gitUrl: https://github.com/aadi-tripathi
   gitUsername: aadi-tripathi
@@ -13,12 +14,29 @@ packages:
   gitUsername: aadi-tripathi
   gitBranch: main
 - name: PublicPrivateCheck
+  version: "1.0"
   gitServerName: aadic
   gitUrl: https://github.com/Munatri
   gitUsername: aadi-tripathi
   gitBranch: main
 - name: Cust12Oct
+  version: "1.0"
   gitServerName: aadic
   gitUrl: https://github.com/aadi-tripathi
   gitUsername: aadi-tripathi
   gitBranch: main
+services:
+- serviceName: project.gitaaditest.integrations:daf1
+  packages:
+  - name: GitAadiTestProject
+    version: "1.0"
+  - name: PublicPrivateCheck
+    version: "1.0"
+  - name: Cust12Oct
+    version: "1.0"
+  - name: AadicusT
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
