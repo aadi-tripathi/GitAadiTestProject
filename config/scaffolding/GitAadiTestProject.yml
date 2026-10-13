@@ -17,3 +17,8 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: aadi-tripathi
   gitBranch: main
+- name: Cust12Oct
+  gitServerName: aadic
+  gitUrl: https://github.com/aadi-tripathi
+  gitUsername: aadi-tripathi
+  gitBranch: main
