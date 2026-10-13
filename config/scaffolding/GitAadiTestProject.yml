@@ -3,6 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: custabc
+  version: "1.0"
   gitBranch: master
 - name: AadicusT
   version: "1.0"
