@@ -2,6 +2,8 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
+- name: custabc
+  gitBranch: master
 - name: AadicusT
   version: "1.0"
   gitServerName: aadic
@@ -29,6 +31,8 @@ services:
 - serviceName: project.gitaaditest.integrations:daf1
   packages:
   - name: GitAadiTestProject
+    version: "1.0"
+  - name: custabc
     version: "1.0"
   - name: PublicPrivateCheck
     version: "1.0"
