@@ -36,6 +36,8 @@ services:
     version: "1.0"
   - name: AadicusT
     version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
